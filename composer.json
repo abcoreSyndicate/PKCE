@@ -1,0 +1,47 @@
+{
+    "name": "pkce/pkce",
+    "description": "PHP implementation of PKCE (Proof Key for Code Exchange) - RFC 7636",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "pkce",
+        "oauth",
+        "oauth2",
+        "rfc7636",
+        "security",
+        "authentication",
+        "authorization"
+    ],
+    "homepage": "https://datatracker.ietf.org/doc/html/rfc7636",
+    "author": "Abral",
+    "support": {
+        "issues": "https://github.com/pkce/pkce/issues",
+        "source": "https://github.com/pkce/pkce"
+    },
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PKCE\\": "src/"
+        },
+        "files": [
+            "pkce_rfc7636.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PKCE\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
