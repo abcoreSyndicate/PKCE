@@ -15,8 +15,7 @@
     "homepage": "https://datatracker.ietf.org/doc/html/rfc7636",
     "author": "Abral",
     "support": {
-        "issues": "https://github.com/pkce/pkce/issues",
-        "source": "https://github.com/pkce/pkce"
+        "source": "https://github.com/abcoreSyndicate/PKCE"
     },
     "require": {
         "php": ">=7.1"
